@@ -9,10 +9,16 @@ body {
 	background-color: rgb(252,157,154);
 	position: relative
 }
-#root h1{
+#root h1,#root h2{
 	width: 200px;
 	position: absolute;
-	top: 50%;
 	left: 50%;
 	margin-left: -100px;
+	color: #fff;
+}
+#root h1{
+	top: 47%;
+}
+#root h2{
+	top: 50%;
 }

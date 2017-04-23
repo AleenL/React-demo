@@ -4,6 +4,6 @@ import App from './App';
 import './index.css';
 
 ReactDOM.render(
-  <h1>Hi, world!</h1>,
+  <div><h1>Hello, world!</h1><h2>Allen Lee</h2></div>,
   document.getElementById('root')
 );
