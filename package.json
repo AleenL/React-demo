@@ -2,10 +2,11 @@
   "name": "react-demo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://aleenl.github.io/React-demo/build",
   "dependencies": {
     "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-      "homepage": "https://aleenl.github.io/React-demo/build"
+    "react-dom": "^15.5.4"
+   
   },
   "devDependencies": {
     "react-scripts": "0.9.5"
