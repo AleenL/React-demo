@@ -5,7 +5,7 @@
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-      "homepage": "https://aleenl.github.io/React-demo"
+      "homepage": "https://aleenl.github.io/React-demo/build"
   },
   "devDependencies": {
     "react-scripts": "0.9.5"
