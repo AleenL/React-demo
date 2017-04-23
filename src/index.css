@@ -15,9 +15,10 @@ body {
 	left: 50%;
 	margin-left: -100px;
 	color: #fff;
+	text-align: center;
 }
 #root h1{
-	top: 47%;
+	top: 45%;
 }
 #root h2{
 	top: 50%;
