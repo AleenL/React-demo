@@ -32,7 +32,7 @@ class Welcome extends React.Component {
   		<div>
   			<h1>Hello,{this.props.name}</h1>
   			<h2>{this.state.date.toString()}</h2>
-  			<p>{test}</p>
+  			<p>{this.state.test}</p>
   		</div>
   		)
   	}
