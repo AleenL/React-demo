@@ -5,10 +5,13 @@ export default class TodoItem extends Component {
 	render() {
 		return (
 			<div className="TodoItem">
-			<input type='checkbox' checked={this.props.todo.status === 'completed'} 
-			onChange={this.toggle.bind(this)}/>
-			<span className='title'>{this.props.todo.title}</span>
-			<button className='delete' onClick={this.delete.bind(this)}>删除</button>
+				<div className="checkboxOne">
+					<input id="checkboxOneInput" type='checkbox' checked={this.props.todo.status === 'completed'} 
+						onChange={this.toggle.bind(this)}/>
+					<label htmlFor="checkboxOneInput"></label>
+				</div>
+				<span className='title'>{this.props.todo.title}</span>
+				<button className='delete' onClick={this.delete.bind(this)}>删除</button>
 			</div>
 		)
 	}
