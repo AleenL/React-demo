@@ -3,15 +3,12 @@ import './TodoInput.css'
 
 export default class TodoInput extends React.Component {
 	render() {
-		return (
-			<div>
-			<input typr="text" 
+		return <input typr="text" 
 			className = 'TodoInput'
 			value={this.props.content} 
 			onChange = {this.changeTitle.bind(this)}
 			onKeyPress={this.submit.bind(this)}/>
-			</div>
-		)
+
 	}
 
 	submit(e){
