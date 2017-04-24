@@ -4,17 +4,17 @@ import './TodoInput.css'
 export default class TodoInput extends React.Component {
 	render() {
 		return (
-			<div className = 'TodoInput'>
+			<div>
 			<input typr="text" 
+			className = 'TodoInput'
 			defaultValue={this.props.content} 
-			/>
-			<button onClick={this.submit.bind(this)}>确认</button>
+			onKeyPress={this.submit.bind(this)}/>
 			</div>
 		)
 	}
 
 	submit(e){
-		if (e.onClick === true){
+		if (e.key === "Enter"){
 			this.props.onSubmit(e)
 		}
 	}
