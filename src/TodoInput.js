@@ -7,7 +7,8 @@ export default class TodoInput extends React.Component {
 			<div>
 			<input typr="text" 
 			className = 'TodoInput'
-			defaultValue={this.props.content} 
+			value={this.props.content} 
+			onChange = {this.changeTitle.bind(this)}
 			onKeyPress={this.submit.bind(this)}/>
 			</div>
 		)
