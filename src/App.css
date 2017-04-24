@@ -19,6 +19,9 @@
 .App > .todoList > li:nth-child(odd){
 	background-color: rgba(204,204,204,0.3);
 }
+.App > .todoList > li:hover{
+  background-color: transparent;
+}
 .App > .todoList > li:nth-child(even){
 	background-color: transparent;
 }
