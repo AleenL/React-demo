@@ -45,7 +45,7 @@ class App extends Component {
       this.setState(this.state)
     }
     toggle(e, todo){
-      todo.status = todo.status === 'completed' ? '' : 'completed'
+      todo.status = todo.status === 'completed' ? ' ' : 'completed'
       this.setState(this.state)
     }
     changeTitle(event){
@@ -62,7 +62,7 @@ class App extends Component {
         deleted: false
       })
       this.setState({
-        newTodo: '',
+        newTodo: ' ',
         todoList: this.state.todoList
       })
     }
