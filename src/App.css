@@ -12,6 +12,9 @@
 .App > h1{
   width: 100%;
   text-align: center;
+  font: normal  900 3em/1.5em Hiragino Sans GB;
+  color: #aaa;
+  text-shadow: 3px 3px 1px rgba(204,203,204,0.5)
 }
 .App > .todoList > li:nth-child(odd){
 	background-color: rgba(204,204,204,0.3);
