@@ -6,6 +6,6 @@ import Welcome from './Welcome';
 
 
 ReactDOM.render(
-  <Welcome/>,
+  <Welcome name="world" />,
   document.getElementById('root')
 )
