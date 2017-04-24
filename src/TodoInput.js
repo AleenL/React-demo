@@ -16,4 +16,7 @@ export default class TodoInput extends React.Component {
 			this.props.onSubmit(e)
 		}
 	}
+	changeTitle(e){
+		this.props.onChange(e)
+	}
 }
