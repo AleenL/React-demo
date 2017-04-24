@@ -29,13 +29,15 @@ class App extends Component {
       <div className='App'>
         <h1>我的代办</h1>
         <div className='inputWrapper'>
-          <TodoInput content={this.state.newTodo} />
+          <TodoInput content={this.state.newTodo} onSubmit={this.addTodo}/>
         </div>
         <ol>
           {todos}
         </ol>
       </div>
     )
+
+    console.log('you need add a new todo')
   }
 }
 export default App;
