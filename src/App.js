@@ -38,7 +38,7 @@ class App extends Component {
       </div>
     )
   }
-    onDelete(enevt, todo){
+    delete(enevt, todo){
       todo.deleted = true
       this.setState(this.state)
     }
