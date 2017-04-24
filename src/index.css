@@ -9,20 +9,3 @@ body {
 	background-color: rgb(252,157,154);
 	position: relative
 }
-#root h1,#root h2,#root p{
-	width: 200px;
-	position: absolute;
-	left: 50%;
-	margin-left: -100px;
-	color: #fff;
-	text-align: center;
-}
-#root h1{
-	top: 45%;
-}
-#root h2{
-	top: 50%;
-}
-#root p{
-	top: 55%;
-}

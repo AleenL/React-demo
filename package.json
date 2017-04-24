@@ -4,9 +4,9 @@
   "private": true,
   "homepage": "https://aleenl.github.io/React-demo/build",
   "dependencies": {
+    "normalize.css": "^6.0.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
-   
   },
   "devDependencies": {
     "react-scripts": "0.9.5"
