@@ -18,15 +18,12 @@
 }
 .App > .todoList > li:nth-child(odd){
 	background-color: rgba(204,204,204,0.3);
-  transition: 1s all;
-}
-.App > .todoList > li:nth-child(odd):hover{
-  background-color: transparent;
+
 }
 .App > .todoList > li:nth-child(even){
 	background-color: transparent;
 }
-.App > .todoList > li:nth-child(even):hover{
-  background-color: rgba(204,204,204,0.3);
-  transition: 1s all;
+.App > .todoList > li:hover{
+  background-color: rgba(131,175,155,0.5);
+  transition: 1s all
 }
