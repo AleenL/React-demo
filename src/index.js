@@ -5,6 +5,6 @@ import App from './App';
 
 
 ReactDOM.render(
-  <Welcome name="world" />,
+  App,
   document.getElementById('root')
 )
