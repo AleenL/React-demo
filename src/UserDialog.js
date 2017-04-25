@@ -44,7 +44,7 @@ export default class UserDialog extends Component{
 	    }
 	    let error = (error)=>{
 	      	switch(error.code){
-	      		case 201:
+	      		case 210:
 	      		alert('用户名与密码不匹配')
 	      		break
 	      	default:
