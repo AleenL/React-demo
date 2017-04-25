@@ -18,16 +18,16 @@ export default class UserDialog extends Component{
 			selected: e.target.value
 		})
 	}
-	signUp(e){
-		e.preventDafault()
-		let {username, password} = this.state.formData
-		let success = (user) =>{
-			this.props.onSignUp.call(null, user)
-		}
-		let error = (error) =>{
-			console.log(error)
-		}
-		signUp(username, password, success, error) 
+	 signUp(e){
+	    e.preventDefault()
+	    let {username, password} = this.state.formData
+	    let success = (user)=>{
+	      	console.log(user)
+	    }
+	    let error = (error)=>{
+	      	console.log(error)
+	    }
+	    signUp(username, password, success, error)
 	}
 	signIn(e){}
 	changeFormData(key,e){
