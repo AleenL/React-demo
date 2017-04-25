@@ -6,6 +6,14 @@ import TodoInput from './TodoInput';
 import TodoItem from './TodoItem';
 import * as localStore from './localStore';
 
+import AV from 'lencloud-storage'
+var APP_ID = 'uPBpX68bTuHXQalB6IiIirYh-gzGzoHsz';
+var APP_KEY = 'qeSqnYMF8YbKpfiUxhH5hOBV';
+AV.init({
+  appId: APP_ID,
+  appKey: APP_KEY
+});
+
 class App extends Component {
   constructor(props){
     super(props)
