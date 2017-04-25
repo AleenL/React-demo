@@ -29,11 +29,11 @@ export default class UserDialog extends Component{
 	      		case 202:
 	      		alert('用户名已被占用')
 	      		break;
-	      		case 200:
-	      		alert('用户名为空')
+	      		case 217:
+	      		alert('无效的用户名')
 	      		break;
-	      		case 201:
-	      		alert('密码为空')
+	      		case 218:
+	      		alert('无效的密码')
 	      		break;
 	      	default:
 	      		alert(error.code)
@@ -55,12 +55,6 @@ export default class UserDialog extends Component{
 	      		break;
 	      		case 211:
 	      		alert('该用户不存在')
-	      		break;
-	      		case 217:
-	      		alert('无效的用户名')
-	      		break;
-	      		case 218:
-	      		alert('无效的密码')
 	      		break;
 	      	default:
 	      		alert(error.code)
@@ -101,7 +95,7 @@ export default class UserDialog extends Component{
 				</div>
 				<div className="row">
 					<label>密码</label>
-					<input text='password' value={this.state.formData.password} 
+					<input type='password' value={this.state.formData.password} 
 					onChange={this.changeFormData.bind(this, 'password')} />
 				</div>
 				<div className="row actions">
