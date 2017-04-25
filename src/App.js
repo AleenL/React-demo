@@ -45,8 +45,9 @@ class App extends Component {
     )
   }
     onSignUp(user){
-      this.state.user = user
-      this.setState(this.state)
+    let stateCopy = JSON.parse(JSON.stringify(this.state)) 
+    stateCopy.user = user
+    this.setState(stateCopy)
     }
     componentDidUpdate(){
       
@@ -84,6 +85,6 @@ export default App;
 let id = 0
 
 function idMaker(){
-  id += 1
+  id= 1
   return id
 }
