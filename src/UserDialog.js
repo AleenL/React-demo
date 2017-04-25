@@ -36,7 +36,7 @@ export default class UserDialog extends Component{
 	      		alert('密码为空')
 	      		break;
 	      	default:
-	      		alert(error)
+	      		alert(error.code)
 	      		break
 	      	}
 	    }
@@ -63,7 +63,7 @@ export default class UserDialog extends Component{
 	      		alert('无效的密码')
 	      		break;
 	      	default:
-	      		alert(error)
+	      		alert(error.code)
 	      		break
 	      	}
 	    }
