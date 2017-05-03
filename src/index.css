@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(252,157,154);
+  background: url(timg.jpg) no-repeat fixed;
+  background-size: 100% 100%;
 }
 #root{
 	display: flex;
