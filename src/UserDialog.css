@@ -1,4 +1,5 @@
 .UserDialog-Wrapper{ 
+				background-color: #ccc;
 				width: 100%;height: 100vh;
   /*全屏*/      position: fixed; top: 0; left: 0; bottom: 0; right: 0; 
   /*内容居中*/  display: flex; justify-content: center; align-items: center;
