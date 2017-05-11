@@ -72,13 +72,11 @@ export default class UserDialog extends Component{
 		let signUpForm = (
 			<form className="signUp" onSubmit={this.signUp.bind(this)}> {/* 注册*/}
 				<div className="row">
-					<label>用户名</label>
-					<input type='text' value={this.state.formData.username} 
+					<input type='text' placeholder='  UserName' value={this.state.formData.username} 
 					onChange={this.changeFormData.bind(this, 'username')} />
 				</div>
 				<div className="row">
-					<label>密码</label>
-					<input type='password' value={this.state.formData.password} 
+					<input type='password' placeholder='  PassWord' value={this.state.formData.password} 
 					onChange={this.changeFormData.bind(this, 'password')} />
 				</div>
 				<div className="row actions">
@@ -89,13 +87,11 @@ export default class UserDialog extends Component{
 		let signInForm = (
 			<form className="signIn" onSubmit={this.signIn.bind(this)}> {/* 登录*/}
 				<div className="row">
-					<label>用户名</label>
-					<input type='text' value={this.state.formData.username} 
+					<input type='text' placeholder='  UserName' value={this.state.formData.username} 
 					onChange={this.changeFormData.bind(this, 'username')} />
 				</div>
 				<div className="row">
-					<label>密码</label>
-					<input type='password' value={this.state.formData.password} 
+					<input type='password' placeholder='  PassWord' value={this.state.formData.password} 
 					onChange={this.changeFormData.bind(this, 'password')} />
 				</div>
 				<div className="row actions">
@@ -108,12 +104,12 @@ export default class UserDialog extends Component{
 				<div className="UserDialog">
 					<nav>
 						<label>
-							<input type="radio" value="signUp" 
+							<input className="test-radio" type="radio" value="signUp" 
 							checked={this.state.selected === 'signUp'}
 							onChange={this.switch.bind(this)}/>注册
 						</label>
 						<label>
-							<input type="radio" value="signIn" 
+							<input  className="test-radio" type="radio" value="signIn" 
 							checked={this.state.selected === 'signIn'}
 							onChange={this.switch.bind(this)}/>登录
 						</label>
